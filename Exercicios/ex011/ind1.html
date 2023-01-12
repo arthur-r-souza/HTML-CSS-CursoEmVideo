@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vídeos com HTML5</title>
+  </head>
+  <body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>O vídeo a seguir está hospedado neste servidor.</p>
+
+    <video controls width="600" poster="imagens/foto-g.png">
+      <source src="midia/Img 0137.mkv" type="video/mkv" />
+      <source src="midia/Img 0137.webm" type="video/webm" />
+      <source src="midia/IMG_0137.MOV" type="video/mov" />
+      <p>Seu navegador não tem compatibilidade com o vídeo carregado</p>
+    </video>
+    <h2>Inserindo vídeos com hospedagem externa</h2>
+    <p>
+      Para incorporar um vídeo do YouTube, basta ir em "compartilhar" no vídeo
+      que você deseja e clicar na opção incorporar, onde virá o código HTML
+      pronto
+    </p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/kos3bQoucto"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

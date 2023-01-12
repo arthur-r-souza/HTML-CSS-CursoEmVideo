@@ -1,0 +1,8 @@
+#mapa {
+  display: block;
+  background-color: cadetblue;
+  padding: 0px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
